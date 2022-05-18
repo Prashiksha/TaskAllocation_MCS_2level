@@ -1,4 +1,6 @@
-List of Files
+### List of Files
+
+```
     1. TaskAllocation.h
             Header file contaning global variables and structure for task and core parameters.
 
@@ -21,15 +23,19 @@ List of Files
     6. TaskAllocationInput.txt
                 Input text file containing number of total tasks in first line. Followed by parameters of task set in order:
                     Phase, Period, Criticality level, WCET for both modes
+```
 
-How to compile the program
+
+### How to compile the program
     Write make command on terminal for compilation.
 
-How to execute the program
+
+### How to execute the program
     Give input in form of:
             ./mcs_alloc input_filename.txt
 
-Output format:
+
+### Output format:
     Initial Task Set with unallocated cores
     Utilisation values at each level
     Required Ui which is the worst case possible total Ui
@@ -41,7 +47,7 @@ Output format:
     Capacity filled in each core after LO criticality tasks are being allocated
 
 
-Next Step (Yet to be done)
+### Next Step (Yet to be done)
 
     1. Test this program with complex task set.
     2. Finding example where a new core will be opened. Then test the reallocation function with min_core+1
